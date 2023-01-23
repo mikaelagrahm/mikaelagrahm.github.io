@@ -7,6 +7,45 @@
 
   gtag('config', 'G-JXCE52JMN3');
 </script>
+
+
+<script>
+function sendReadEvent(author, title, numberOfCharacters) {
+    gtag('event', 'read_article', {
+        "author": author,
+        "title": title,
+        "number_of_characters": numberOfCharacters,
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const readArticle1Button = document.getElementById("knapp1");
+
+    if (readArticle1Button) {
+        // Skickar event vid klick på artikel 1
+        readArticle1Button.addEventListener("click", () => {
+            sendReadEvent("MG", "Article 1", 50)
+        });
+
+        // Skickar event vid klick på artikel 2
+        document.getElementById("knapp2").addEventListener("click", () => {
+            sendReadEvent("KC", "Article 2", 100)
+        });
+
+        // Skickar event vid klick på artikel 3
+        document.getElementById("knapp3").addEventListener("click", () => {
+            sendReadEvent("JD", "Article 3", 150)
+        });
+    }
+
+});
+  
+</script>
+
+
+
+
 <script>
 function sendReadEvent(author, title, numberOfCharacters){
     gtag('event','read_article', {
