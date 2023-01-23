@@ -7,3 +7,35 @@
 
   gtag('config', 'G-JXCE52JMN3');
 </script>
+
+function sendReadEvent(author, title, numberOfCharacters){
+    gtag('event','read_article', {
+        "author": author,
+        "title": title,
+        "number_of_characters": numberOfCharacters,
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+
+const readArticle1Button = document.getElementById("knapp1");
+const readArticle2Button = document.getElementById("knapp2");
+const readArticle3Button = document.getElementById("knapp3");
+
+if (readArticle1Button) {
+  readArticle1Button.addEventListener("click", () => {    
+    sendReadEvent("MG", "Artikel 1", 50)
+});
+
+if (readArticle2Button) {
+  readArticle2Button.addEventListener("click", () => {    
+    sendReadEvent("KC", "Artikel 2", 100)
+});
+
+if (readArticle3Button) {
+  readArticle3Button.addEventListener("click", () => {    
+sendReadEvent("JD", "Artikel 3", 150)
+});
+
+}
+
