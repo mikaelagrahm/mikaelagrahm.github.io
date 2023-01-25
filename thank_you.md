@@ -1,3 +1,0 @@
-# Thank you
-
-Thank you for visiting my page
