@@ -18,3 +18,5 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magnam quam sunt ad
 <button id="knapp3">Läst klart artikel 3</button>
 
 [Här kan du läsa mer om mig](/about)
+
+[Länk till Thank-you-sidan](/thank_you)
