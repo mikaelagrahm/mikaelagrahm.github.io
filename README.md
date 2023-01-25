@@ -19,4 +19,4 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magnam quam sunt ad
 
 [Här kan du läsa mer om mig](/about)
 
-[Länk till Thank-you-sidan](/thank_you)
+[Länk till Thank-you-sidan](/thank-you)
