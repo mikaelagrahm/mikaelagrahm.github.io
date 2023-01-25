@@ -20,3 +20,5 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magnam quam sunt ad
 [Här kan du läsa mer om mig](/about)
 
 [Länk till Thank-you-sidan](/thank-you)
+
+[Klicka här för att köpa](/purchase-complete)
