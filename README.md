@@ -17,6 +17,11 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magnam quam sunt ad
         
 <button id="knapp3">Läst klart artikel 3</button>
 
+# Min första artikel
+Detta är min första artikel. Hoppas du tycker den är intressant!
+
+<button id="knapp4">Läst artikel</button>
+
 [Här kan du läsa mer om mig](/about)
 
 [Länk till Thank-you-sidan](/thank-you)
