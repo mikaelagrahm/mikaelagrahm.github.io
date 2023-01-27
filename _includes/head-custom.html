@@ -46,10 +46,13 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("knapp3").addEventListener("click", () => {
             sendReadEvent("JD", "Article 3", 150)
         });
+      
+      // Skickar event vid klick på "Min första artikel"
+        document.getElementById("knapp4").addEventListener("click", () => {
+            sendArtReadEvent("Min första artikel", 2)
     }
  
-  document.getElementById("knapp4").addEventListener("click", () => {
-            sendArtReadEvent("Min första artikel", 2)
+
   
 });
   
