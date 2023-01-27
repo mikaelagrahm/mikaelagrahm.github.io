@@ -17,6 +17,13 @@ function sendReadEvent(author, title, numberOfCharacters) {
         "number_of_characters": numberOfCharacters,
     });
 }
+  
+function sendArtReadEvent(artikelnamn, tid) {
+    gtag('event', 'read_article_new', {
+        "Artikelnamn": artikelnamn,
+        "Lästid": tid,
+    });
+ }
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -37,6 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("knapp3").addEventListener("click", () => {
             sendReadEvent("JD", "Article 3", 150)
         });
+      
+      //Skickar event vid klick på "Min första artikel"
+      document.getElementById("knapp4").addEventListener("click", () => {
+            sendArtReadEvent("Min första artikel", 2)
     }
 
 });
