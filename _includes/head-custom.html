@@ -20,8 +20,8 @@ function sendReadEvent(author, title, numberOfCharacters) {
   
 function sendArtReadEvent(artikelnamn, tid) {
     gtag('event', 'read_article_new', {
-        "Artikelnamn": artikelnamn,
-        "Lästid": tid,
+        "artikelnamn": artikelnamn,
+        "tid": tid,
     });
  }
 
