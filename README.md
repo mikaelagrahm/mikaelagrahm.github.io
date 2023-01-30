@@ -27,3 +27,5 @@ Detta är min första artikel. Hoppas du tycker den är intressant!
 [Länk till Thank-you-sidan](/thank-you)
 
 [Klicka här för att köpa](/purchase-complete)
+
+<button id="order">Beställ</button>
