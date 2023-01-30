@@ -20,7 +20,7 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magnam quam sunt ad
 # Min första artikel
 Detta är min första artikel. Hoppas du tycker den är intressant!
 
-<button id="knapp4">Läst artikel</button>
+<button id="knapp4">Läst artikel</button> <button id="order">Beställ</button>
 
 [Här kan du läsa mer om mig](/about)
 
@@ -28,4 +28,4 @@ Detta är min första artikel. Hoppas du tycker den är intressant!
 
 [Klicka här för att köpa](/purchase-complete)
 
-<button id="order">Beställ</button>
+
