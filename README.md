@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis numquam moles
         
 <button id="knapp2">Läst artikel</button>
 
-# Sucess Stories
+# Success Stories
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et magnam quam sunt adipisci dolorem amet maxime eumquia perferendis temporibus. Porro laborum debitis repudiandae sapiente rem saepe reprehenderit temporibus amet?
         
 <button id="knapp3">Läst artikel</button>
